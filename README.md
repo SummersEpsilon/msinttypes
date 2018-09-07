@@ -10,6 +10,9 @@ On windows 10.
 ## Step2:
 choco install msinttypes
 
-## in Step2, get Error.
+### in Step2, get Error.
 
+file: chocolateyInstall.ps1 
+
+## Step2 (instead).
 
