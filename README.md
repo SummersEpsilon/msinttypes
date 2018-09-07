@@ -12,7 +12,27 @@ choco install msinttypes
 
 ### in Step2, get Error.
 
-file: chocolateyInstall.ps1 
+modified file: chocolateyInstall.ps1 
 
 ## Step2 (instead).
+
+C:\WINDOWS\system32>choco install msinttypes
+Chocolatey v0.10.11
+Installing the following packages:
+msinttypes
+By installing you accept licenses for the packages.
+
+msinttypes v0.26 - Possibly broken
+msinttypes package files install completed. Performing other installation steps.
+The package msinttypes wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[N]o/[P]rint):
+
+Before you Choose [Y]es
+
+put the modified file: chocolateyInstall.ps1 to instead of 
+C:\ProgramData\chocolatey\lib\msinttypes\tools\chocolateyInstall.ps1
+
 
