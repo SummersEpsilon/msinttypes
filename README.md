@@ -51,4 +51,4 @@ choco feature enable -n allowGlobalConfirmation
 put the modified file: [chocolateyInstall.ps1](https://raw.githubusercontent.com/SummersEpsilon/msinttypes/master/chocolateyInstall.ps1) to instead of 
 **C:\ProgramData\chocolatey\lib\msinttypes\tools\chocolateyInstall.ps1**
 
-
+#### then type “Y” to continue.
